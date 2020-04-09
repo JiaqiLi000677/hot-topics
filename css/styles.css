@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme|Cabin&display=swap');
+
+body {
+    line-height: 1.5;
+    font-size: 0.75rem;
+    font-family: 'Cabin', sans-serif;
+    color: #33383E;
+}
+
+.article {
+    width: 90%;
+    margin: auto;
+}
+
+
+header {
+    text-align: center;
+    margin: auto;
+}
+
+.logo {
+    width: 30%;
+    display: inline;
+}
+
+h2,
+.thumb,
+h1 {
+    text-align: center;
+    font-family: 'BioRhyme', serif;
+}
+
+h1 {
+    padding: 30px 0px;
+
+}
+
+.article-img {
+    width: 100%;
+}
+
+.card {
+    margin: 20px;
+}
+
+
+.btn {
+    margin-top: 0.5rem;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+.p {
+    background-image: url("../images/background.png");
+    background-size: 100%;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+p {
+    padding: 20px;
+}
+
+.border {
+    width: 100%;
+}
+
+.feedback {
+    background-color: #33383E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #33383E;
+}
+
+#mybutton {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.card-text {
+    bottom: 20px;
+}
+
+.list-group-item {
+    margin: 15px;
+    display: block;
+
+}
+
+li {
+    list-style: none;
+}
+
+.list-group-horizontal {
+    padding: 20px;
+}
+
+/*---------------footer design---------------*/
+footer {
+    background-color: #33383E;
+    color: white;
+    width: 100%;
+}
+
+/*social icons*/
+i.fab {
+    font-size: 2em;
+    padding: 10px;
+    color: lightgray;
+}
+
+li {
+    display: inline;
+}
+
+ul.nav div {
+    margin: auto;
+}
+
+.footer-text {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+
+@media (min-width: 35rem) {
+    .logo {
+        width: 30%;
+        display: inline;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        background-image: url("../images/tag-line.jpg");
+        background-size: 100%;
+        padding: 70px;
+        margin-top: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .logo-buttons {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .list-group-item {
+        margin: 15px;
+        display: inline;
+    }
+
+    .list-group-horizontal {
+        margin-top: 20%;
+    }
+
+    .article-img {
+        width: 100%;
+    }
+
+    div.thumb {
+        width: 40%;
+        float: left;
+        padding-right: 10px;
+    }
+
+    .p2 {
+        clear: both;
+    }
+}
+
+@media (min-width: 80rem) {
+    .logo {
+        width: 18%;
+    }
+
+    body {
+        font-size: 1.25rem;
+    }
+
+    h1,
+    h2,
+    .thumb,
+    .logo,
+    header,
+    .footer-text {
+        text-align: left;
+    }
+
+    .footer-text {
+        padding-left: 24%;
+    }
+
+    h1 {
+        margin-top: 0px;
+        padding-left: 24%;
+    }
+
+    .logo-buttons {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .btn {
+        white-space: normal;
+        width: 40%;
+        height: 50px;
+        margin-top: 7rem;
+    }
+
+    .btn-block+.btn-block {
+        margin-top: 7rem;
+    }
+
+    img.logo {
+        margin: 20px;
+    }
+
+    .buttons {
+        width: 40%;
+        height: auto;
+    }
+
+    .p2 {
+        clear: none;
+    }
+
+    hr {
+        clear: both;
+    }
+
+    .p {
+        width: 55%;
+        float: right;
+    }
+
+    footer {
+        clear: both;
+    }
+}
